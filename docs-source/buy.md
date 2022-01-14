@@ -4,6 +4,20 @@
 购买 Vue3 专业版，并分别在 [![star](https://img.shields.io/github/stars/hooray/fantastic-admin?style=social)](https://github.com/hooray/fantastic-admin/stargazers) 和 [![star](https://gitee.com/hooray/fantastic-admin/badge/star.svg?theme=dark)](https://gitee.com/hooray/fantastic-admin/stargazers) 给仓库点 ⭐，可免费获得 Vue2 专业版（联系作者并提供相关截图即可）。
 :::
 
+## 部分客户评价
+
+<div style="display: inline-flex; justify-content: center; align-content: center; width: 120px; height: 80px; margin: 14px;"><img :src="$withBase('/customer-1.png')" style="object-fit: contain;" /></div>
+<div style="display: inline-flex; justify-content: center; align-content: center; width: 120px; height: 80px; margin: 14px;"><img :src="$withBase('/customer-2.png')" style="object-fit: contain;" /></div>
+<div style="display: inline-flex; justify-content: center; align-content: center; width: 120px; height: 80px; margin: 14px;"><img :src="$withBase('/customer-3.png')" style="object-fit: contain;" /></div>
+<div style="display: inline-flex; justify-content: center; align-content: center; width: 120px; height: 80px; margin: 14px;"><img :src="$withBase('/customer-4.png')" style="object-fit: contain;" /></div>
+<div style="display: inline-flex; justify-content: center; align-content: center; width: 120px; height: 80px; margin: 14px;"><img :src="$withBase('/customer-5.png')" style="object-fit: contain;" /></div>
+<div style="display: inline-flex; justify-content: center; align-content: center; width: 120px; height: 80px; margin: 14px;"><img :src="$withBase('/customer-6.png')" style="object-fit: contain;" /></div>
+<div style="display: inline-flex; justify-content: center; align-content: center; width: 120px; height: 80px; margin: 14px;"><img :src="$withBase('/customer-7.png')" style="object-fit: contain;" /></div>
+<div style="display: inline-flex; justify-content: center; align-content: center; width: 120px; height: 80px; margin: 14px;"><img :src="$withBase('/customer-8.png')" style="object-fit: contain;" /></div>
+<div style="display: inline-flex; justify-content: center; align-content: center; width: 120px; height: 80px; margin: 14px;"><img :src="$withBase('/customer-9.png')" style="object-fit: contain;" /></div>
+<div style="display: inline-flex; justify-content: center; align-content: center; width: 120px; height: 80px; margin: 14px;"><img :src="$withBase('/customer-10.png')" style="object-fit: contain;" /></div>
+<div style="display: inline-flex; justify-content: center; align-content: center; width: 120px; height: 80px; margin: 14px;"><img :src="$withBase('/customer-11.png')" style="object-fit: contain;" /></div>
+
 ## 购买说明
 
 请先加作者 QQ ：304327508 ，或者点击[在线咨询](https://wpa.qq.com/msgrd?v=3&uin=304327508&site=qq&menu=yes)，然后通过下面的微信或支付宝进行支付，支付成功后需要提供一个邮箱地址用于接收源码，源码包含专业版**演示源码**和**框架源码**。
