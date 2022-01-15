@@ -56,10 +56,12 @@ $themes: (
 );
 ```
 
-最后在框架配置里修改主题为 `red` 就可以调用这个我们创建的主题了。
+最后在应用配置里修改主题为 `red` 就可以调用这个我们创建的主题了。
 
 ```js:no-line-numbers
-theme: 'red'
+app: {
+    theme: 'red'
+}
 ```
 
 ## Element Plus 主题

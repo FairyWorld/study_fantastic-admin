@@ -42,7 +42,7 @@ export default {
 ### 多级路由
 
 :::tip 说明
-在 Vue2 版本中，在框架配置中设置 `enableFlatRoutes: true` ，会将多级路由转成二级路由。而在 Vue3 版本中，所有的多级路由最终都会转成二级路由并注册，但多级嵌套的层级结构会在侧边栏导航和面包屑到中保留，其设计原因可阅读《[页面缓存](keep-alive.md)》。
+多级路由最终都会转成二级路由并注册，但多级嵌套的层级结构会在侧边栏导航和面包屑到中保留，其设计原因可阅读《[页面缓存](keep-alive.md)》。
 :::
 
 多级路由的中间层级，可以无需设置 `component` 。
@@ -173,9 +173,9 @@ activeIcon: 'ri-star-fill'
 
 |  类型   | 是否必须 | 默认值 | 说明               |
 | :-----: | :------: | :----: | :----------------- |
-| boolean |    ✖️     | false  | 子导航是否默认展开 |
+| boolean |    ✖️     | false  | 次导航是否默认展开 |
 
-使用该特性时，建议在框架配置里关闭 `sidebarUniqueOpened` 设置。
+使用该特性时，建议在应用配置里关闭 `menu.subMenuUniqueOpened` 设置。
 
 ### permanent <Badge type="tip" text="专业版" vertical="top" />
 
@@ -183,7 +183,7 @@ activeIcon: 'ri-star-fill'
 | :-----: | :------: | :----: | :------------- |
 | boolean |    ✖️     | false  | 是否常驻标签页 |
 
-使用该特性时，需要在框架配置里开启 `enableTabbar` 设置，同时需注意，请勿在带有参数的路由上设置该特性。
+使用该特性时，需要在应用配置里开启 `tabbar.enable` 设置，同时需注意，请勿在带有参数的路由上设置该特性。
 
 ### auth
 
@@ -304,7 +304,7 @@ badge: () => globalStore.number
 | :-----: | :------: | :----: | :------------------------- |
 | boolean |    ✖️     |   /    | 该路由是否显示底部版权信息 |
 
-该参数比框架配置里的 `showCopyright` 优先级高，不设置则继承框架配置里的设置。
+该参数比应用配置里的 `copyright.enable` 优先级高，不设置则继承应用配置里的设置。
 
 ### paddingBottom <Badge type="tip" text="专业版" vertical="top" />
 
@@ -447,10 +447,12 @@ export default {
 如果你执意使用该特性，请确保你了解该特性在上面所说的优缺点，并谨慎使用！
 :::
 
-在框架配置里开启：
+在应用配置里开启：
 
 ```js:no-number-lines
-enableBackendReturnRoute: true
+app: {
+    enableBackendReturnRoute: true
+}
 ```
 
 开启后访问 `/src/store/modules/menu.js` 文件，找到 `generateRoutesAtBack()` 这个 action 方法，你要做的就是修改这个方法里的请求地址，请求返回的数据就是路由数据，你可以在 `/src/mock/route.js` 里查看 mock 数据。

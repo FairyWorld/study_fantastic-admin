@@ -1,9 +1,11 @@
 # 错误日志 <Badge type="tip" text="专业版" vertical="top" />
 
-首先需要在框架配置里开启错误日志。
+首先需要在应用配置里开启错误日志。
 
 ```js:no-line-numbers
-enableErrorLog: true
+app: {
+    enableErrorLog: true
+}
 ```
 
 然后需要到 `/src/util/error.log.js` 文件里编写业务代码，框架为方便演示，将错误日志记录在 `sessionStorage` 里。

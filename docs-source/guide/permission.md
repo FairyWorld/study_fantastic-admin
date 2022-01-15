@@ -1,9 +1,11 @@
 # 权限
 
-首先需要在框架配置里开启权限功能。
+首先需要在应用配置里开启权限功能。
 
 ```js:no-line-numbers
-enablePermission: true
+app: {
+    enablePermission: true
+}
 ```
 
 ::: tip 权限是如何运作的

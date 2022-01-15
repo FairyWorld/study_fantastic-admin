@@ -4,7 +4,7 @@
 
 ## 导航栏模式
 
-在框架配置里进行设置，可实现 5 种导航栏模式：
+在应用配置里进行设置，可实现 5 种导航栏模式：
 
 - 顶部模式
 - 侧边栏模式（含主导航）
@@ -17,7 +17,9 @@
 <p><img :src="$withBase('/menu-mode-head.png')" /></p>
 
 ```js:no-line-numbers
-menuMode: 'head'
+menu: {
+    menuMode: 'head'
+}
 ```
 
 ### 侧边栏模式（含主导航）
@@ -25,7 +27,9 @@ menuMode: 'head'
 <p><img :src="$withBase('/menu-mode-side.png')" /></p>
 
 ```js:no-line-numbers
-menuMode: 'side'
+menu: {
+    menuMode: 'side'
+}
 ```
 
 ### 侧边栏模式（无主导航）
@@ -33,7 +37,9 @@ menuMode: 'side'
 <p><img :src="$withBase('/menu-mode-single.png')" /></p>
 
 ```js:no-line-numbers
-menuMode: 'single'
+menu: {
+    menuMode: 'single'
+}
 ```
 
 ### 侧边栏精简模式 <Badge type="tip" text="专业版" vertical="top" />
@@ -41,7 +47,9 @@ menuMode: 'single'
 <p><img :src="$withBase('/menu-mode-only-side.png')" /></p>
 
 ```js:no-line-numbers
-menuMode: 'only-side'
+menu: {
+    menuMode: 'only-side'
+}
 ```
 
 ### 顶部精简模式 <Badge type="tip" text="专业版" vertical="top" />
@@ -49,12 +57,14 @@ menuMode: 'only-side'
 <p><img :src="$withBase('/menu-mode-only-head.png')" /></p>
 
 ```js:no-line-numbers
-menuMode: 'only-head'
+menu: {
+    menuMode: 'only-head'
+}
 ```
 
 ## 页宽模式 <Badge type="tip" text="专业版" vertical="top" />
 
-在框架配置里进行设置，可实现 4 种基于页宽(页面宽度)模式：
+在应用配置里进行设置，可实现 4 种基于页宽(页面宽度)模式：
 
 - 自适应
 - 自适应（有最小宽度）
@@ -66,7 +76,9 @@ menuMode: 'only-head'
 <p><img :src="$withBase('/layout_1.gif')" /></p>
 
 ```js:no-line-numbers
-appWidthMode: 'adaption'
+layout: {
+    widthMode: 'adaption'
+}
 ```
 
 ### 自适应（有最小宽度）
@@ -74,7 +86,9 @@ appWidthMode: 'adaption'
 <p><img :src="$withBase('/layout_2.gif')" /></p>
 
 ```js:no-line-numbers
-appWidthMode: 'adaption-min-width'
+layout: {
+    widthMode: 'adaption-min-width'
+}
 ```
 
 ### 定宽居中
@@ -82,7 +96,9 @@ appWidthMode: 'adaption-min-width'
 <p><img :src="$withBase('/layout_3.gif')" /></p>
 
 ```js:no-line-numbers
-appWidthMode: 'center'
+layout: {
+    widthMode: 'center'
+}
 ```
 
 ### 定宽居中（有最大宽度）
@@ -90,7 +106,9 @@ appWidthMode: 'center'
 <p><img :src="$withBase('/layout_4.gif')" /></p>
 
 ```js:no-line-numbers
-appWidthMode: 'center-max-width'
+layout: {
+    widthMode: 'center-max-width'
+}
 ```
 
 ## 变量

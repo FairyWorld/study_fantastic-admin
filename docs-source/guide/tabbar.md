@@ -32,10 +32,12 @@
 
 ## 开启标签栏
 
-只需在框架配置里修改设置即可开启，标签栏支持右键更多操作。
+只需在应用配置里修改设置即可开启，标签栏支持右键更多操作。
 
 ```js:no-line-numbers
-enableTabbar: true
+tabbar: {
+    enable: true
+}
 ```
 
 ## 标签页合并

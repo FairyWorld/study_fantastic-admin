@@ -2,10 +2,12 @@
 
 由于 localStorage 和 sessionStorage 的同源策略，同一域名下的 storage 数据会共享。如果你恰好需要在同一域名下部署两套(及以上)系统，不可避免会出现 storage 数据冲突，框架提供了一个 storage 类来解决这个问题。
 
-解决同源 storage 数据冲突的方式就是增加前缀区分，首先需要在框架配置里设置，这里需要你设置一个唯一且不重名的前缀。
+解决同源 storage 数据冲突的方式就是增加前缀区分，首先需要在应用配置里设置，这里需要你设置一个唯一且不重名的前缀。
 
 ```js:no-line-numbers
-storagePrefix: 'fa_'
+app: {
+    storagePrefix: 'fa_'
+}
 ```
 
 然后在需要使用到 storage 的地方引入：

@@ -26,9 +26,9 @@
 
 当然在 Fantastic-admin 还提供了页面标题、调试工具、构建压缩等一系列的配置，详细可阅读《[配置 - 环境配置](configure.md#环境配置)》。
 
-### 框架配置
+### 应用配置
 
-vue-element-admin 一共只提供了 6 个配置项（`title` `showSettings` `tagsView` `fixedHeader` `sidebarLogo` `errorLog`），并且大部分都是界面布局上的设置，建议这部分可直接参考 Fantastic-admin 的框架配置文件，我们提供了更丰富的界面布局设置。
+vue-element-admin 一共只提供了 6 个配置项（`title` `showSettings` `tagsView` `fixedHeader` `sidebarLogo` `errorLog`），并且大部分都是界面布局上的设置，建议这部分可直接参考 Fantastic-admin 的应用配置文件，我们提供了更丰富的界面布局设置。
 
 ### 主题
 
