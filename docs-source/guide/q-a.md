@@ -48,6 +48,10 @@ export default {
     <h1>text h1</h1>
     <h2>text h2</h2>
 </template>
+
+<template>
+    没有节点也是不行的
+</template>
 ```
 
 正确示例：
@@ -55,7 +59,6 @@ export default {
 ```vue:no-line-numbers
 <template>
     <div>
-        <!-- 需要注意，注释也会被视为一个节点 -->
         <h1>text h1</h1>
         <h2>text h2</h2>
     </div>
