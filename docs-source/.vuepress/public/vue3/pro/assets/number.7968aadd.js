@@ -1,9 +1,0 @@
-
-/**
- * 由 Fantastic-admin 提供技术支持
- * https://hooray.gitee.io/fantastic-admin/
- * Powered by Fantastic-admin
- * https://hooray.github.io/fantastic-admin/
- */
-    
-import{_ as u}from"./index.1bd2d262.js";import{_ as r}from"./index.c5ec1ecf.js";import{n as l}from"./index.677bf551.js";import{l as m,F as n,A as o,D as p,o as d,m as f,Y as b,k as g,$ as s}from"./vendor.7ef8ea63.js";const x=s("1"),h=s("1"),V={setup(k){const e=l();function a(){e.setNumber(e.number+1)}function c(){e.setNumber(e.number-1)}return(B,N)=>{const _=r,t=p("el-button"),i=u;return d(),m("div",null,[n(_,{title:"\u6570\u5B57\u6807\u8BB0",content:"\u642D\u914D Pinia \u53EF\u5B9E\u73B0\u52A8\u6001\u8BBE\u7F6E\u3002\u8BF7\u63A7\u5236\u6570\u5B57\u5C55\u793A\u957F\u5EA6\uFF0C\u907F\u514D\u5BFC\u822A\u6807\u8BB0\u8986\u76D6\u5BFC\u822A\u6807\u9898\uFF0C\u4E3A 0 \u65F6\u5219\u9690\u85CF"}),n(i,null,{default:o(()=>[f("div",null,"\u5F53\u524D badge \u503C\uFF1A"+b(g(e).number),1),n(t,{icon:"el-icon-plus",onClick:a},{default:o(()=>[x]),_:1}),n(t,{icon:"el-icon-minus",onClick:c},{default:o(()=>[h]),_:1})]),_:1})])}}};export{V as default};
