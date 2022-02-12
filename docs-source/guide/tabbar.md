@@ -80,7 +80,9 @@ tabbar: {
 当设置标签页不合并时，从**新闻列表页**进入**新闻详情页**，框架会新增一个*新闻详情*的标签页，配置如下。
 
 ```js:no-line-numbers
-enableTabbarMergeTabs: false
+tabbar: {
+    mergeTabs: false
+}
 ```
 
 <p><img :src="$withBase('/tabbar-no-merge.gif')" /></p>
@@ -88,7 +90,9 @@ enableTabbarMergeTabs: false
 而设置当标签栏合并时，从**新闻列表页**进入**新闻详情页**，框架会将*新闻列表*的标签页，替换成*新闻详情*的标签页，始终只保持一个标签页，配置如下。
 
 ```js:no-line-numbers
-enableTabbarMergeTabs: true
+tabbar: {
+    mergeTabs: true
+}
 ```
 
 <p><img :src="$withBase('/tabbar-merge.gif')" /></p>

@@ -126,13 +126,19 @@ $g-app-width: 1400px;
 $g-header-width: 100%;
 // 头部高度
 $g-header-height: 70px;
-// 面包屑高度（同时也是侧边栏Logo区域的高度）
-$g-breadcrumb-height: 50px;
+// 侧边栏Logo高度
+$g-sidebar-logo-height: 50px;
 // 标签栏高度
 $g-tabbar-height: 40px;
-// 侧边栏宽度
-$g-main-sidebar-width: 60px;
-$g-sub-sidebar-width: 220px;
+// 工具栏高度
+$g-toolbar-height: 50px;
+
+// 全局变量
+:root {
+    // 侧边栏宽度
+    --g-main-sidebar-width: 70px;
+    --g-sub-sidebar-width: 220px;
+}
 ```
 
 ## 移动端

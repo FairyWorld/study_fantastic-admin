@@ -2,13 +2,13 @@
 
 ## 构建
 
-项目开发完成之后，可以执行 `pnpm build` 命令进行构建，构建打包成功之后，会在根目录生成 dist 文件夹，里面就是构建打包好的文件。
+项目开发完成之后，可以执行 `pnpm run build` 命令进行构建，构建打包成功之后，会在根目录生成 dist 文件夹，里面就是构建打包好的文件。
 
-如果是需要构建测试环境，则执行 `pnpm build:test` 命令，对应会在根目录生成 dist-test 文件夹。
+如果是需要构建测试环境，则执行 `pnpm run build:test` 命令，对应会在根目录生成 dist-test 文件夹。
 
 ## 预览
 
-生成好的 dist 文件夹一般需要部署至服务器才算部署发布成功，但为了保证构建出来的文件能正常运行，开发者通常希望能在本地先预览一下，可执行 `pnpm serve` 或 `pnpm serve:test` 命令预览不同环境构建出的文件夹。
+生成好的 dist 文件夹一般需要部署至服务器才算部署发布成功，但为了保证构建出来的文件能正常运行，开发者通常希望能在本地先预览一下，可执行 `pnpm run serve` 或 `pnpm run serve:test` 命令预览不同环境构建出的文件夹。
 
 ## 压缩
 
@@ -68,23 +68,23 @@ import './pwa'
 :::
 
 ::: code-group-item /src/App.vue
-```vue:no-line-numbers {4,9}
+```vue:no-line-numbers {2,8}
+<script setup>
+import ReloadPrompt from '@/pwa/reloadPrompt.vue'
+</script>
+
 <template>
     <el-config-provider :locale="locales[$store.state.settings.defaultLang]">
         <RouterView />
         <ReloadPrompt />
     </el-config-provider>
 </template>
-
-<script setup>
-import ReloadPrompt from '@/pwa/reloadPrompt.vue'
-</script>
 ```
 :::
 
 ::::
 
-最后在 `./vite/plugins/pwa.js` 文件里修改 manifest 信息，对应的图片目录为 `./public/pwa_icons/` 。
+最后在 `/vite/plugins/pwa.js` 文件里修改 manifest 信息，对应的图片目录为 `/public/pwa_icons/` 。
 
 当准备好这一切并构建部署到生产环境后，你就可以在浏览器的地址栏里看到多了一个小图标，点击后会提示你可以安装应用。
 

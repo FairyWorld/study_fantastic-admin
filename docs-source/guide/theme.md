@@ -11,16 +11,18 @@
 与基础版不同，专业版默认提供了 6 款主题，在配置文件中就可轻松切换。并且多款主题共存，支持在项目运行时动态切换。
 
 ```js:no-line-numbers
-/**
- * 主题，默认提供 6 款
- * default 默认
- * vue-cli Vue CLI 风格
- * gitee 码云风格
- * freshness 清新
- * elegant 素雅
- * pure-white 纯白
- */
-theme: 'default'
+app: {
+    /**
+     * 主题，默认提供 6 款
+     * default 默认
+     * vue-cli Vue CLI 风格
+     * gitee 码云风格
+     * freshness 清新
+     * elegant 素雅
+     * pure-white 纯白
+     */
+    theme: 'default'
+}
 ```
 
 如果框架提供的主题风格满足不了你的需求，你还可以自定义新的主题，在 `/src/assets/styles/resources/` 目录里， `theme-*.scss` 即主题样式文件，以默认主题为例：

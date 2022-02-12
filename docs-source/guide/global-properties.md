@@ -94,6 +94,27 @@ this.$mainPageMaximize(status)
 
 除 vue-router 、pinia 、axios 之外，框架还默认集成了一些常用且成熟的类库或插件，熟悉并熟练使用它们，能让你在开发过程中更得心应手。
 
+### [mitt](https://github.com/developit/mitt)
+
+全局事件总线的库，也是 Vue 3 官方推荐的。
+
+:::: code-group
+
+::: code-group-item Composition API
+```js:no-line-numbers
+const { proxy } = getCurrentInstance()
+proxy.$eventBus
+```
+:::
+
+::: code-group-item Options API
+```js:no-line-numbers
+this.$eventBus
+```
+:::
+
+::::
+
 ### [dayjs](https://day.js.org/zh-CN/)
 
 轻量的处理时间和日期的库。
@@ -157,27 +178,6 @@ this.$hotkeys
 
 ::::
 
-### [vue3-clipboard](https://github.com/soerenmartius/vue3-clipboard) <Badge type="tip" text="专业版" vertical="top" />
-
-剪贴板的库，可将数据拷贝到系统剪贴板中。
-
-:::: code-group
-
-::: code-group-item Composition API
-```js:no-line-numbers
-const { proxy } = getCurrentInstance()
-proxy.$clipboard
-```
-:::
-
-::: code-group-item Options API
-```js:no-line-numbers
-this.$clipboard
-```
-:::
-
-::::
-
 ### [QRCode](https://github.com/soldair/node-qrcode) <Badge type="tip" text="专业版" vertical="top" />
 
 生成二维码的库，可生成图片或 canvas 二维码。
@@ -194,27 +194,6 @@ proxy.$qrcode
 ::: code-group-item Options API
 ```js:no-line-numbers
 this.$qrcode
-```
-:::
-
-::::
-
-### [mitt](https://github.com/developit/mitt)
-
-全局事件总线的库，也是 Vue 3 官方推荐的。
-
-:::: code-group
-
-::: code-group-item Composition API
-```js:no-line-numbers
-const { proxy } = getCurrentInstance()
-proxy.$eventBus
-```
-:::
-
-::: code-group-item Options API
-```js:no-line-numbers
-this.$eventBus
 ```
 :::
 

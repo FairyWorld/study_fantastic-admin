@@ -8,7 +8,7 @@ Vue3 虽然提供了全新的 Composition API ，但它依旧支持 Options API 
 
 同时得益于 [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import) 的特性，在 `<script setup>` 里无需导入相关 API ，该依赖会自动导入（默认支持 vue 和 vue-router）。
 
-```html:no-line-numbers {3-5}
+```html:no-line-numbers {3-4}
 <script setup>
 // 原先需要手动 import 相关 API
 import { ref, computed } from 'vue'

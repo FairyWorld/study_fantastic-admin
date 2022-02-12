@@ -67,7 +67,7 @@ import { Search } from '@element-plus/icons'
 
 以上图为例，其中红框部分的格式为 `{集合名}:{图标名}` ，所以在框架中使用就是下面这样。
 
-```vue
+```vue:no-line-numbers
 <i-mdi-account-box />
 ```
 
