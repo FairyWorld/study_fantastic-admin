@@ -1,7 +1,7 @@
 # 全局状态管理
 
 :::tip 说明
-因为 [Pinia](https://pinia.vuejs.org/) 已正式成为 Vue.js 官方状态库，本模版也从 Vuex 替换为 Pinia 。
+[Pinia](https://pinia.vuejs.org/) 已正式成为 Vue.js 官方状态库，本框架也从 Vuex 替换为 Pinia 。
 
 如果你对 Pinia 还不熟悉，我整理了一些文字/视频的介绍，可以帮助你快速上手。
 

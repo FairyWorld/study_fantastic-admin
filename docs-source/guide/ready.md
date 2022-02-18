@@ -6,9 +6,9 @@
 
 ### 基础版
 
-:::warning 分支说明
-- `master` 演示源码，即在**框架源码**基础上提供各种特性展示，含有大量示例代码
-- `template` 框架源码，不含示例代码，适合直接用于项目开发
+:::tip 分支说明
+- **master** 演示源码，即在**框架源码**基础上提供各种特性展示，含有大量示例代码
+- **template** 框架源码，不含示例代码，适合直接用于项目开发
 :::
 
 - 手动下载
@@ -41,7 +41,13 @@ git clone -b template https://github.com/hooray/fantastic-admin.git
 
 ## 开发环境
 
-使用本模板前，需要在本地依次安装好 [Node.js](https://nodejs.org/zh-cn/), [pnpm](https://pnpm.io/zh/), [Git](https://git-scm.com/) 和 [Visual Studio Code](https://code.visualstudio.com/)，并且在 Visual Studio Code 里安装好以下扩展：
+使用本模板前，需要在本地依次安装好 [Node.js](https://nodejs.org/zh-cn/), [pnpm](https://pnpm.io/zh/), [Git](https://git-scm.com/) 和 [Visual Studio Code](https://code.visualstudio.com/)。
+
+::: warning 注意
+Node.js 版本需 >= 14.x ，建议为 16.x
+:::
+
+然后在 Visual Studio Code 里安装好以下扩展：
 
 - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 - [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
@@ -53,8 +59,8 @@ git clone -b template https://github.com/hooray/fantastic-admin.git
 
 <p><img :src="$withBase('/vscode.png')" /></p>
 
-::: tip
-以上 5 个为 Visual Studio Code 必备扩展，以下则是作者建议安装的扩展，安装它们将在一定程度上提升开发效率。
+::: tip 建议
+以上 5 个为开发时必备扩展，以下则是作者建议安装的扩展，安装它们将在一定程度上提升开发效率。
 
 - [Chinese (Simplified) Language Pack for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans) 中文语言包
 - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) 自动添加 HTML 的闭合标签
@@ -69,11 +75,9 @@ git clone -b template https://github.com/hooray/fantastic-admin.git
 
 除此之外，还需要准备好开发使用的浏览器，推荐使用 [Chrome](https://www.google.cn/chrome/) ，并且在 Chrome 里安装好 [Vue.js devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/ljjemllljcmogpfapbkkighbhhppjdbg) 扩展，这一步很重要，安装 Vue 官方提供的调试工具将大大提升解决 bug 的效率。
 
-::: tip
-Vue.js devtools 目前有两个版本，分别是正式版和 beta 版，需要安装的是 beta 版。如果之前有安装过正式版，在进行开发调试的时候，需要禁用或删除正式版，也就是只保留一个 Vue.js devtools 扩展才行。
+Vue.js devtools 目前有两个版本，分别是正式版和 beta 版，**需要安装的是 beta 版**。如果之前有安装过正式版，在进行开发调试的时候，需要禁用或删除正式版，也就是只保留一个 Vue.js devtools 扩展才行。
 
-另外，由于 Vue.js devtools 的 Chrome 扩展需要访问 Chrome 应用商店，如果在大陆地区访问，需要自行准备相关**可访问外网**的工具。如果不具备该条件，也可通过访问 [devtools](https://github.com/vuejs/devtools) 仓库并下载 `.xpi` 文件进行本地安装，支持 chrome 和 firefox ，详细说明请访问 [Vue.js devtools](https://devtools.vuejs.org/) 官网了解。
-:::
+另外，由于安装 Vue.js devtools 的 Chrome 扩展需要访问 Chrome 应用商店，如果在大陆地区访问，需要自行准备相关**可访问外网**的工具。如果不具备该条件，也可通过访问 [devtools](https://github.com/vuejs/devtools) 仓库并下载 `.xpi` 文件进行本地安装，支持 chrome 和 firefox ，详细说明请访问 [Vue.js devtools](https://devtools.vuejs.org/) 官网了解。
 
 ## 技术栈
 

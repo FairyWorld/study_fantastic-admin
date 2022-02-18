@@ -101,7 +101,7 @@ tabbar: {
 
 ## 当标签栏开启时 <Badge type="tip" text="专业版" vertical="top" />
 
-:::tip
+:::tip 建议
 请确保已阅读《[标签栏 - 标签页合并](tabbar.md#标签页合并)》。
 :::
 
