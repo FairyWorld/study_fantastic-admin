@@ -2,7 +2,7 @@
 
 > 该特性由 [vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages) 和 [vite-plugin-vue-layouts](https://github.com/JohnCampionJr/vite-plugin-vue-layouts) 提供支持。
 
-传统使用路由的方式需要手动编写路由，而基于文件系统的路由则会根据文件的目录结构自动生成路由结构，从而节省开发周期。
+传统使用路由的方式需要手动编写路由，而基于文件系统的路由则会根据 `/src/views/` 下的文件目录结构，自动生成每个 `.vue` 文件对应的路由配置，从而节省手动配置路由的时间。
 
 ## 使用介绍
 
