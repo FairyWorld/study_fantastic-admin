@@ -190,6 +190,7 @@ module.exports = {
 						'error-log.md',
 						'font.md',
 						'jsx.md',
+						'file-system-route.md',
 						'position-fixed.md'
 					]
 				},
