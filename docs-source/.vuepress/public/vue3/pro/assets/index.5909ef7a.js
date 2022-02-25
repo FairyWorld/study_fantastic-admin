@@ -1,9 +1,0 @@
-
-/**
- * 由 Fantastic-admin 提供技术支持
- * https://hooray.gitee.io/fantastic-admin/
- * Powered by Fantastic-admin
- * https://hooray.github.io/fantastic-admin/
- */
-    
-import{r as _,y as g,D as l,aB as b,U as x,o as $,l as h,F as r,A as i,H as U}from"./vendor.d1c84aa2.js";const I={props:{id:{type:[Number,String],default:""},departmentId:{type:[Number,String],default:""}},setup(m,{expose:n}){const s=m,{proxy:t}=U(),e=_({loading:!1,form:{id:s.id,department_id:s.departmentId,title:""},rules:{title:[{required:!0,message:"\u8BF7\u8F93\u5165\u804C\u4F4D\u540D\u79F0",trigger:"blur"}]}});g(()=>{e.value.form.id!=""&&u()});function u(){e.value.loading=!0,t.$api.get("pages_example/job/detail",{baseURL:"/mock/",params:{id:e.value.form.id,department_id:e.value.form.department_id}}).then(a=>{e.value.loading=!1,e.value.form.title=a.data.title})}return n({submit(a){e.value.form.id==""?t.$refs.form.validate(o=>{o&&t.$api.post("pages_example/job/create",e.value.form,{baseURL:"/mock/"}).then(()=>{t.$message.success({message:"\u6A21\u62DF\u65B0\u589E\u6210\u529F",center:!0}),a&&a()})}):t.$refs.form.validate(o=>{o&&t.$api.post("pages_example/job/edit",e.value.form,{baseURL:"/mock/"}).then(()=>{t.$message.success({message:"\u6A21\u62DF\u7F16\u8F91\u6210\u529F",center:!0}),a&&a()})})}}),(a,o)=>{const d=l("el-input"),f=l("el-form-item"),p=l("el-form"),c=b("loading");return x(($(),h("div",null,[r(p,{ref:"form",model:e.value.form,rules:e.value.rules,"label-width":"120px","label-suffix":"\uFF1A"},{default:i(()=>[r(f,{label:"\u804C\u4F4D",prop:"title"},{default:i(()=>[r(d,{modelValue:e.value.form.title,"onUpdate:modelValue":o[0]||(o[0]=v=>e.value.form.title=v),placeholder:"\u8BF7\u8F93\u5165\u804C\u4F4D\u540D\u79F0"},null,8,["modelValue"])]),_:1})]),_:1},8,["model","rules"])])),[[c,e.value.loading]])}}};export{I as default};

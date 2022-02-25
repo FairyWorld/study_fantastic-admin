@@ -64,41 +64,7 @@ views
 }
 ```
 
-你可以在 SFC 单文件组件里设置 layout ：
-
-```vue:no-line-numbers {1-7}
-<route>
-{
-    meta: {
-        layout: 'empty'
-    }
-}
-</route>
-
-<template>
-    <div>login 页面</div>
-</template>
-```
-
-```js:no-line-numbers {4,11}
-// 生成的路由
-{
-    path: '/example/list',
-    component: () => import('/src/layout/empty.vue'),
-    children: [
-        {
-            path: '',
-            component: () => import('/src/views/example/list.vue'),
-            name: 'example-list',
-            meta: {
-                layout: 'empty'
-            }
-        }
-    ]
-}
-```
-
-同样也可以设置成 `layout: false` ，这样该路由就不会生成嵌套路由。
+你可以在 SFC 单文件组件里将 layout 设置为 false，这样该路由则不会生成嵌套路由：
 
 ```vue:no-line-numbers {1-7}
 <route>
@@ -110,7 +76,7 @@ views
 </route>
 
 <template>
-    <div>login 页面</div>
+    <div>列表页</div>
 </template>
 ```
 
@@ -134,6 +100,7 @@ views
 
 - title
 - i18n <Badge type="tip" text="专业版" vertical="top" />
+- permanent <Badge type="tip" text="专业版" vertical="top" />
 - auth
 - activeMenu
 - cache
@@ -188,4 +155,4 @@ views
 
 - 面包屑导航
 - 次导航是否默认展开
-- JSX支持
+- JSX
