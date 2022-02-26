@@ -1,0 +1,9 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * https://hooray.gitee.io/fantastic-admin/
+ * Powered by Fantastic-admin
+ * https://hooray.github.io/fantastic-admin/
+ */
+    
+import{i as f,j as g,u as e,k as t,g as l,q as u,l as r,e as m,r as v,f as n,$ as S,F as c,x as h,b as M}from"./vendor.7c7b0e52.js";import C from"./index.cfa8a69a.js";import k from"./index.24bdd8c0.js";import{_ as w,u as x,c as q}from"./index.4b131b6e.js";import"./logo.96f1da49.js";import"./index.3c2b2fe3.js";const y=f({name:"SubSidebar"}),B=Object.assign(y,{setup(O){const s=x(),i=q(),d=g(0);function p(a){d.value=a.target.scrollTop}return(a,T)=>{const _=v("el-menu");return["side","head","single"].includes(e(s).menu.menuMode)||e(s).mode==="mobile"?(n(),t("div",{key:0,class:u(["sub-sidebar-container",{"is-collapse":e(s).mode==="pc"&&e(s).menu.subMenuCollapse}]),onScroll:p},[l(C,{"show-logo":e(s).menu.menuMode==="single",class:u({"sidebar-logo":!0,"sidebar-logo-bg":e(s).menu.menuMode==="single",shadow:d.value})},null,8,["show-logo","class"]),r(" \u4FA7\u8FB9\u680F\u6A21\u5F0F\uFF08\u65E0\u4E3B\u5BFC\u822A\uFF09 "),l(_,{"unique-opened":e(s).menu.subMenuUniqueOpened,"default-openeds":e(i).defaultOpenedPaths,"default-active":a.$route.meta.activeMenu||a.$route.path,collapse:e(s).mode==="pc"&&e(s).menu.subMenuCollapse,"collapse-transition":!1,class:u({"is-collapse-without-logo":e(s).menu.menuMode!=="single"&&e(s).menu.subMenuCollapse})},{default:m(()=>[l(S,{name:"sub-sidebar"},{default:m(()=>[(n(!0),t(c,null,h(e(i).sidebarMenus,(o,b)=>(n(),t(c,null,[o.meta.sidebar!==!1?(n(),M(k,{key:o.path||b,item:o,"base-path":o.path},null,8,["item","base-path"])):r("v-if",!0)],64))),256))]),_:1})]),_:1},8,["unique-opened","default-openeds","default-active","collapse","class"])],34)):r("v-if",!0)}}});var V=w(B,[["__scopeId","data-v-84d0c1f8"]]);export{V as default};
