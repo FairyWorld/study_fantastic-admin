@@ -98,16 +98,16 @@ views
 
 需要注意的是，既然使用了基于文件系统的路由，不建议再手动去设置 `path` 和 `name` ，同时因为路由不再承担生成导航的特性，所以 `meta` 对象的可配置项也有部分调整，保留了以下参数：
 
-- title
-- i18n <Badge type="tip" text="专业版" vertical="top" />
-- permanent <Badge type="tip" text="专业版" vertical="top" />
-- auth
-- activeMenu
-- cache
-- noCache <Badge type="tip" text="专业版" vertical="top" />
-- link <Badge type="tip" text="专业版" vertical="top" />
-- copyright <Badge type="tip" text="专业版" vertical="top" />
-- paddingBottom <Badge type="tip" text="专业版" vertical="top" />
+- [title](router.md#title)
+- [i18n](router.md#i18n) <Badge type="tip" text="专业版" vertical="top" />
+- [permanent](router.md#permanent) <Badge type="tip" text="专业版" vertical="top" />
+- [auth](router.md#auth)
+- [activeMenu](router.md#activemenu)
+- [cache](router.md#cache)
+- [noCache](router.md#nocache) <Badge type="tip" text="专业版" vertical="top" />
+- [link](router.md#link) <Badge type="tip" text="专业版" vertical="top" />
+- [copyright](router.md#copyright) <Badge type="tip" text="专业版" vertical="top" />
+- [paddingBottom](router.md#paddingbottom) <Badge type="tip" text="专业版" vertical="top" />
 
 另外还新增了三个特殊参数：
 
@@ -141,17 +141,17 @@ views
 
 - path 完整路由地址
 - meta 同路由 `meta` 对象，支持以下参数：
-  - title
-  - i18n
-  - icon
-  - activeIcon <Badge type="tip" text="专业版" vertical="top" />
-  - auth
-  - badge <Badge type="tip" text="专业版" vertical="top" />
+  - [title](router.md#title)
+  - [i18n](router.md#i18n)
+  - [icon](router.md#icon)
+  - [activeIcon](router.md#activeicon) <Badge type="tip" text="专业版" vertical="top" />
+  - [auth](router.md#auth)
+  - [badge](router.md#badge) <Badge type="tip" text="专业版" vertical="top" />
 - children 下级导航列表
 
 ## 功能取舍
 
-使用文件系统的路由后，你将无法再使用以下功能或特性：
+需要注意，使用文件系统的路由后，将无法再使用以下功能或特性：
 
 - 面包屑导航
 - 次导航是否默认展开

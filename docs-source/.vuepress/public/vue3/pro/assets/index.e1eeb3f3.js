@@ -1,0 +1,9 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * https://hooray.gitee.io/fantastic-admin/
+ * Powered by Fantastic-admin
+ * https://hooray.github.io/fantastic-admin/
+ */
+    
+import{_ as x,u as M,f as k,j as T,b as B}from"./index.a1178b85.js";import{g as N,z as m,h as i,i as j,u as t,s as O,q as u,j as b,A as p,w as c,M as V,a6 as w,l as _,o as r,F as I,C as L,y as z,t as F,a9 as P,al as q}from"./vendor.ee7254f0.js";import A from"./index.45a6e6dd.js";import"./index.ac89c7a6.js";import"./index.11b38996.js";const D={class:"toolbar-container"},E={class:"left-box"},G=N({name:"Toolbar"}),H=Object.assign(G,{setup(R){const n=V(),e=M(),l=k(),f=w("generateI18nTitle"),h=m(()=>{var a;return e.mode==="mobile"||["side","head","single"].includes(e.menu.menuMode)&&e.toolbar.enableSidebarCollapse&&!(e.menu.subMenuOnylOneHide&&l.sidebarMenus.length===1&&(!l.sidebarMenus[0].children||((a=l.sidebarMenus[0])==null?void 0:a.children.every(s=>s.meta.sidebar===!1))))}),d=m(()=>{let a=[];return e.dashboard.enable&&a.push({path:"/dashboard",title:e.dashboard.title,i18n:"route.dashboard"}),n.meta.breadcrumbNeste&&a.push(...T(n.meta.breadcrumbNeste)),a});function g(a){return q(a)(n.params)}return(a,s)=>{const v=B,C=_("el-breadcrumb-item"),y=_("el-breadcrumb");return r(),i("div",D,[j("div",E,[t(h)?(r(),i("div",{key:0,class:O(["sidebar-collapse",{"is-collapse":t(e).menu.subMenuCollapse}]),onClick:s[0]||(s[0]=o=>t(e).toggleSidebarCollapse())},[u(v,{name:"toolbar-collapse"})],2)):b("v-if",!0),t(e).toolbar.enableBreadcrumb&&t(e).mode==="pc"&&t(e).app.routeBaseOn!=="filesystem"?(r(),p(y,{key:1,"separator-class":"el-icon-arrow-right"},{default:c(()=>[u(P,{name:"breadcrumb"},{default:c(()=>[(r(!0),i(I,null,L(t(d),(o,S)=>(r(),p(C,{key:o.path,to:S<t(d).length-1?g(o.path):""},{default:c(()=>[z(F(t(f)(o.i18n,o.title)),1)]),_:2},1032,["to"]))),128))]),_:1})]),_:1})):b("v-if",!0)]),u(A)])}}});var W=x(H,[["__scopeId","data-v-79aeaaa1"]]);export{W as default};
