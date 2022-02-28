@@ -139,7 +139,7 @@ views
 
 导航对象有三个标准参数：
 
-- path 完整路由地址
+- path 完整路由地址，如果有下级导航，则无需设置
 - meta 同路由 `meta` 对象，支持以下参数：
   - [title](router.md#title)
   - [i18n](router.md#i18n)
@@ -147,7 +147,7 @@ views
   - [activeIcon](router.md#activeicon) <Badge type="tip" text="专业版" vertical="top" />
   - [auth](router.md#auth)
   - [badge](router.md#badge) <Badge type="tip" text="专业版" vertical="top" />
-- children 下级导航列表
+- children 下级导航数组
 
 ## 功能取舍
 
