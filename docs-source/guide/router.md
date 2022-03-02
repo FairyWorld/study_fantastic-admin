@@ -451,11 +451,11 @@ export default {
 
 ```js:no-number-lines
 app: {
-    enableBackendReturnRoute: true
+    routeBaseOn: 'backend'
 }
 ```
 
-开启后访问 `/src/store/modules/menu.js` 文件，找到 `generateRoutesAtBack()` 这个 action 方法，你要做的就是修改这个方法里的请求地址，请求返回的数据就是路由数据，你可以在 `/src/mock/route.js` 里查看 mock 数据。
+开启后访问 `/src/store/modules/route.js` 文件，找到 `generateRoutesAtBack()` 这个 action 方法，你要做的就是修改这个方法里的请求地址，请求返回的数据就是路由数据，你可以在 `/src/mock/route.js` 里查看 mock 数据。
 
 开启后端生成后，路由权限有两种做法，一种是后端直接返回用户具备访问权限的路由数据，另一种则返回全部的路由的数据，让框架自行处理。两种做法的区别在于第一种返回的路由数据里，无需在 meta 对象里设置 auth 参数。
 

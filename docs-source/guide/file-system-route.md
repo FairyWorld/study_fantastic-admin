@@ -149,6 +149,16 @@ views
   - [badge](router.md#badge) <Badge type="tip" text="专业版" vertical="top" />
 - children 下级导航数组
 
+同样的，导航数据也可通过后端进行返回，只需在应用配置里做如下修改：
+
+```js:no-line-numbers
+menu: {
+    baseOn: 'backend'
+}
+```
+
+开启后访问 `/src/store/modules/menu.js` 文件，找到 `generateMenusAtBack()` 这个 action 方法，你要做的就是修改这个方法里的请求地址，请求返回的数据就是路由数据，你可以在 `/src/mock/menu.js` 里查看 mock 数据。
+
 ## 功能取舍
 
 需要注意，使用文件系统的路由后，将无法再使用以下功能或特性：
