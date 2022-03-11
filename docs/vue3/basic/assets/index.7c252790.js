@@ -1,9 +1,0 @@
-
-/**
- * 由 Fantastic-admin 提供技术支持
- * https://hooray.gitee.io/fantastic-admin/
- * Powered by Fantastic-admin
- * https://hooray.github.io/fantastic-admin/
- */
-    
-import{_ as y}from"./index.828ff984.js";import{i as S,a as m,j as T,o as B,a0 as N,k as l,s as L,u as t,q as b,g as c,l as _,b as f,e as d,Q as E,r as v,f as o,F as V,x as M,v as j,t as F,$ as O,a1 as P}from"./vendor.7c7b0e52.js";import{_ as $,u as q,d as z}from"./index.4bcd9cef.js";import D from"./index.78bcaae4.js";const G={class:"left-box"},I=S({name:"Topbar"}),Q=Object.assign(I,{setup(R){const r=E(),e=q(),h=m(()=>e.mode==="mobile"||["side","head","single"].includes(e.menu.menuMode)&&e.topbar.enableSidebarCollapse),i=m(()=>{let a=[];return e.dashboard.enable&&a.push({path:"/dashboard",title:e.dashboard.title}),r.meta.breadcrumbNeste&&a.push(...z(r.meta.breadcrumbNeste)),a}),u=T(0);B(()=>{window.addEventListener("scroll",p)}),N(()=>{window.removeEventListener("scroll",p)});function p(){u.value=document.documentElement.scrollTop||document.body.scrollTop}function g(a){return P(a)(r.params)}return(a,n)=>{const x=y,C=v("el-breadcrumb-item"),k=v("el-breadcrumb");return o(),l("div",{class:b(["topbar-container",{fixed:t(e).topbar.fixed,shadow:u.value}]),"data-fixed-calc-width":""},[L("div",G,[t(h)?(o(),l("div",{key:0,class:b(["sidebar-collapse",{"is-collapse":t(e).menu.subMenuCollapse}]),onClick:n[0]||(n[0]=s=>t(e).toggleSidebarCollapse())},[c(x,{name:"toolbar-collapse"})],2)):_("v-if",!0),t(e).topbar.enableBreadcrumb&&t(e).mode==="pc"&&t(e).app.routeBaseOn!=="filesystem"?(o(),f(k,{key:1,"separator-class":"el-icon-arrow-right"},{default:d(()=>[c(O,{name:"breadcrumb"},{default:d(()=>[(o(!0),l(V,null,M(t(i),(s,w)=>(o(),f(C,{key:s.path,to:w<t(i).length-1?g(s.path):""},{default:d(()=>[j(F(s.title),1)]),_:2},1032,["to"]))),128))]),_:1})]),_:1})):_("v-if",!0)]),c(D)],2)}}});var K=$(Q,[["__scopeId","data-v-922b0592"]]);export{K as default};
