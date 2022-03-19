@@ -17,6 +17,7 @@
 <div style="display: inline-flex; justify-content: center; align-content: center; width: 120px; height: 80px; margin: 14px;"><img :src="$withBase('/customer-9.png')" style="object-fit: contain;" /></div>
 <div style="display: inline-flex; justify-content: center; align-content: center; width: 120px; height: 80px; margin: 14px;"><img :src="$withBase('/customer-10.png')" style="object-fit: contain;" /></div>
 <div style="display: inline-flex; justify-content: center; align-content: center; width: 120px; height: 80px; margin: 14px;"><img :src="$withBase('/customer-11.png')" style="object-fit: contain;" /></div>
+<div style="display: inline-flex; justify-content: center; align-content: center; width: 120px; height: 80px; margin: 14px;"><img :src="$withBase('/customer-12.png')" style="object-fit: contain;" /></div>
 
 ## 购买说明
 
