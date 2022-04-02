@@ -1,9 +1,0 @@
-
-/**
- * 由 Fantastic-admin 提供技术支持
- * https://hooray.gitee.io/fantastic-admin/
- * Powered by Fantastic-admin
- * https://hooray.github.io/fantastic-admin/
- */
-    
-import{_ as e,b as a,h as t,j as l}from"./index.d5f01412.js";import d from"./alert.03a4f071.js";import{k as s,g as i,e as f,r as u,f as n,u as o,a7 as r,v as _}from"./vendor.9748e354.js";const p=_("默认链接"),c=_("主要链接"),m=_("成功链接"),y=_("警告链接"),b=_("危险链接"),g=_("信息链接"),v=_("默认链接"),h=_("主要链接"),j=_("成功链接"),w=_("警告链接"),k=_("危险链接"),x=_("信息链接"),I=_("无下划线"),q=_("有下划线"),z=_("编辑"),A=_(" 查看 "),B={setup:e=>(e,a)=>{const _=l,B=u("el-link"),C=t,D=u("el-icon-view"),E=u("el-icon");return n(),s("div",null,[i(d),i(_,{title:"文字链接"}),i(C,{title:"基础用法",class:"demo"},{default:f((()=>[i(B,{href:"https://element.eleme.io",target:"_blank"},{default:f((()=>[p])),_:1}),i(B,{type:"primary"},{default:f((()=>[c])),_:1}),i(B,{type:"success"},{default:f((()=>[m])),_:1}),i(B,{type:"warning"},{default:f((()=>[y])),_:1}),i(B,{type:"danger"},{default:f((()=>[b])),_:1}),i(B,{type:"info"},{default:f((()=>[g])),_:1})])),_:1}),i(C,{title:"禁用状态",class:"demo"},{default:f((()=>[i(B,{disabled:""},{default:f((()=>[v])),_:1}),i(B,{type:"primary",disabled:""},{default:f((()=>[h])),_:1}),i(B,{type:"success",disabled:""},{default:f((()=>[j])),_:1}),i(B,{type:"warning",disabled:""},{default:f((()=>[w])),_:1}),i(B,{type:"danger",disabled:""},{default:f((()=>[k])),_:1}),i(B,{type:"info",disabled:""},{default:f((()=>[x])),_:1})])),_:1}),i(C,{title:"下划线",class:"demo"},{default:f((()=>[i(B,{underline:!1},{default:f((()=>[I])),_:1}),i(B,null,{default:f((()=>[q])),_:1})])),_:1}),i(C,{title:"图标",class:"demo"},{default:f((()=>[i(B,{icon:o(r)},{default:f((()=>[z])),_:1},8,["icon"]),i(B,null,{default:f((()=>[A,i(E,{class:"el-icon-view el-icon--right"},{default:f((()=>[i(D)])),_:1})])),_:1})])),_:1})])}};"function"==typeof a&&a(B);var C=e(B,[["__scopeId","data-v-f9b6d7ba"]]);export{C as default};

@@ -1,9 +1,0 @@
-
-/**
- * 由 Fantastic-admin 提供技术支持
- * https://hooray.gitee.io/fantastic-admin/
- * Powered by Fantastic-admin
- * https://hooray.github.io/fantastic-admin/
- */
-    
-import{_ as a,b as t,o as e,n as l}from"./index.2c18650f.js";import{r as s,L as n,h as o,q as c,w as r,O as i,l as d,o as u,i as f,y as m}from"./vendor.9da56f98.js";const v=m("node-qrcode 官网"),_=["src"],h={ref:"canvas"},g=["src"],p=["src"],y={setup(a){const{proxy:t}=i(),m=s(""),y=s(""),q=s("");return n((()=>{t.$qrcode.toDataURL("Fantastic-admin 真棒！").then((a=>{m.value=a})).catch((a=>{})),t.$qrcode.toCanvas(t.$refs.canvas,"Fantastic-admin 真棒！").then((()=>{})).catch((a=>{})),t.$qrcode.toDataURL("Fantastic-admin 真棒！",{color:{dark:"#5482EE",light:"#E8E8E8"}}).then((a=>{y.value=a})).catch((a=>{})),t.$qrcode.toDataURL("Fantastic-admin 真棒！",{width:100}).then((a=>{q.value=a})).catch((a=>{}))})),(a,t)=>{const s=d("el-button"),n=e,i=l,w=d("el-col"),E=d("el-row");return u(),o("div",null,[c(n,{title:"二维码"},{default:r((()=>[c(s,{icon:"el-icon-link",onClick:t[0]||(t[0]=a=>{return t="https://github.com/soldair/node-qrcode",void window.open(t,"top");var t})},{default:r((()=>[v])),_:1})])),_:1}),c(E,{gutter:20,style:{margin:"0 10px"}},{default:r((()=>[c(w,{sm:6},{default:r((()=>[c(i,{title:"渲染成 img 标签",style:{margin:"0"}},{default:r((()=>[f("img",{src:m.value},null,8,_)])),_:1})])),_:1}),c(w,{sm:6},{default:r((()=>[c(i,{title:"渲染成 canvas 标签",style:{margin:"0"}},{default:r((()=>[f("canvas",h,null,512)])),_:1})])),_:1}),c(w,{sm:6},{default:r((()=>[c(i,{title:"自定义颜色",style:{margin:"0"}},{default:r((()=>[f("img",{src:y.value},null,8,g)])),_:1})])),_:1}),c(w,{sm:6},{default:r((()=>[c(i,{title:"指定宽度",style:{margin:"0"}},{default:r((()=>[f("img",{src:q.value},null,8,p)])),_:1})])),_:1})])),_:1})])}}};"function"==typeof t&&t(y);var q=a(y,[["__scopeId","data-v-ffa43d24"]]);export{q as default};

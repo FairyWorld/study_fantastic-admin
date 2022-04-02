@@ -1,9 +1,0 @@
-
-/**
- * 由 Fantastic-admin 提供技术支持
- * https://hooray.gitee.io/fantastic-admin/
- * Powered by Fantastic-admin
- * https://hooray.github.io/fantastic-admin/
- */
-    
-[data-v-79aeaaa1]:root{--g-main-sidebar-width: 70px;--g-sub-sidebar-width: 220px}.toolbar-container[data-v-79aeaaa1]{display:flex;align-items:center;justify-content:space-between;height:50px;background-color:#fff;transition:.3s;box-shadow:0 0 1px #ccc}.toolbar-container .left-box[data-v-79aeaaa1]{display:flex;align-items:center;padding-right:50px;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,#000 0%,#000 calc(100% - 50px),transparent)}.toolbar-container .left-box .sidebar-collapse[data-v-79aeaaa1]{display:flex;align-items:center;padding:0 20px;height:50px;cursor:pointer;transition:.3s}.toolbar-container .left-box .sidebar-collapse .svg-icon[data-v-79aeaaa1]{transition:.3s}.toolbar-container .left-box .sidebar-collapse:hover .svg-icon[data-v-79aeaaa1]{color:#5482ee}.toolbar-container .left-box .sidebar-collapse.is-collapse .svg-icon[data-v-79aeaaa1]{transform:rotate(-180deg)}.toolbar-container .left-box .sidebar-collapse+.el-breadcrumb[data-v-79aeaaa1]{margin-left:0}.toolbar-container .left-box[data-v-79aeaaa1] .el-breadcrumb{margin-left:20px;white-space:nowrap}.toolbar-container .left-box[data-v-79aeaaa1] .el-breadcrumb .el-breadcrumb__item{display:inline-block;float:none}.toolbar-container .left-box[data-v-79aeaaa1] .el-breadcrumb .el-breadcrumb__item span{font-weight:400}.toolbar-container .left-box[data-v-79aeaaa1] .el-breadcrumb .el-breadcrumb__item:last-child span{color:#97a8be}.breadcrumb-enter-active[data-v-79aeaaa1]{transition:all .25s}.breadcrumb-enter-from[data-v-79aeaaa1],.breadcrumb-leave-active[data-v-79aeaaa1]{opacity:0;transform:translate(30px) skew(-50deg)}

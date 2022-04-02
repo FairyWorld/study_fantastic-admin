@@ -1,9 +1,0 @@
-
-/**
- * 由 Fantastic-admin 提供技术支持
- * https://hooray.gitee.io/fantastic-admin/
- * Powered by Fantastic-admin
- * https://hooray.github.io/fantastic-admin/
- */
-    
-import{_ as e,c as a,b as o,n as t,o as r}from"./index.2c18650f.js";import{g as l,l as n,o as d,A as s,w as c,y as f,t as i,i as u,j as m,x as p,h as g,q as y}from"./vendor.9da56f98.js";const h={class:"num"},_={class:"tip"},v=l({name:"ColorfulCard"});var b=e(Object.assign(v,{props:{colorFrom:{type:String,default:"#843cf6"},colorTo:{type:String,default:"#759bff"},header:{type:String,default:""},num:{type:Number,default:0},tip:{type:String,default:""},icon:{type:String,default:""}},setup:e=>(o,t)=>{const r=a,l=n("el-card");return d(),s(l,{shadow:"hover",class:"mini-card",style:p({background:`linear-gradient(50deg, ${e.colorFrom}, ${e.colorTo})`})},{header:c((()=>[f(i(e.header),1)])),default:c((()=>[u("div",h,i(e.num),1),u("div",_,i(e.tip),1),e.icon?(d(),s(r,{key:0,name:e.icon,rotate:20},null,8,["name"])):m("v-if",!0)])),_:1},8,["style"])}}),[["__scopeId","data-v-7079d789"]]);const S={};"function"==typeof o&&o(S);var j=e(S,[["render",function(e,a){const o=r,l=b,s=n("el-col"),f=n("el-row"),i=t;return d(),g("div",null,[y(o,{title:"多彩渐变卡片",content:"ColorfulCard"}),y(i,null,{default:c((()=>[y(f,{gutter:20},{default:c((()=>[y(s,{md:6},{default:c((()=>[y(l,{header:"开发文档",num:123,tip:"较上周上升50%"})])),_:1}),y(s,{md:6},{default:c((()=>[y(l,{"color-from":"#fbaaa2","color-to":"#fc5286",header:"基础组件",num:12323,tip:"较上周上升50%",icon:"sidebar-element"})])),_:1}),y(s,{md:6},{default:c((()=>[y(l,{"color-from":"#ff763b","color-to":"#ffc480",header:"扩展组件",num:123,tip:"较上周上升50%",icon:"ri-pages-line"})])),_:1}),y(s,{md:6},{default:c((()=>[y(l,{"color-from":"#6a8eff","color-to":"#0e4cfd",header:"业务应用页面",num:123,tip:"较上周上升50%",icon:"el-icon-link"})])),_:1})])),_:1})])),_:1})])}]]);export{j as default};
