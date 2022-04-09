@@ -1,7 +1,7 @@
 # 购买专业版
 
 :::tip 点 ⭐ 领取专业版源码
-购买 Vue3 专业版后，并分别在 [![star](https://img.shields.io/github/stars/hooray/fantastic-admin?style=social)](https://github.com/hooray/fantastic-admin/stargazers) 和 [![star](https://gitee.com/hooray/fantastic-admin/badge/star.svg?theme=dark)](https://gitee.com/hooray/fantastic-admin/stargazers) 给仓库点 ⭐，可免费领取 Vue2 专业版（联系作者并提供相关截图即可）。
+购买 Vue3 专业版的客户，分别在 [![star](https://img.shields.io/github/stars/hooray/fantastic-admin?style=social)](https://github.com/hooray/fantastic-admin/stargazers) 和 [![star](https://gitee.com/hooray/fantastic-admin/badge/star.svg?theme=dark)](https://gitee.com/hooray/fantastic-admin/stargazers) 给仓库点 ⭐，可免费领取 Vue2 专业版（联系作者并提供相关截图即可）。
 :::
 
 ## 部分客户评价
@@ -22,16 +22,25 @@
 ## 购买说明
 
 :::warning ⚠️ 注意
-由于购买专业版的客户较多，作者的QQ号在回复“购买”、“支付”、“付款”等交易相关关键词后，可能会被系统误判为非法操作导致账号冻结，后续将不在微信和QQ上做购买流程的解答，请按照下方介绍的流程自助购买。
+由于咨询/购买专业版的客户较多，作者在回复消息内容中发送“购买”、“支付”、“付款”等交易相关关键词后，可能会被系统误判为非法操作导致账号冻结，后续将不在微信和QQ上做购买流程的解答，请按照下方介绍的流程自助购买。
 :::
 
 购买流程：
 
-1. 请先加作者微信或QQ：304327508（注明来意），或者点击[客服1](https://wpa.qq.com/msgrd?v=3&uin=304327508&site=qq&menu=yes)或[客服2](https://wpa.qq.com/msgrd?v=3&uin=61830631&site=qq&menu=yes)在线咨询。
-2. 通过微信或支付宝进行扫码支付，并在备注里注明**手机/微信/QQ/邮箱**等联系方式。
-3. 支付成功后需提供**付款截图凭证**和**邮箱号**（请勿提供国外邮箱，以免邮件发送失败，如Gmail），其中邮箱号用于接收源码。
-4. 若作者没有回复，或者QQ突然离线，极有可能是账号被冻结，作者将会通过步骤1里的备注与您取得联系，并发送专业版源码。
-5. 查看邮箱，获取源码。专业版源码包含**演示源码**和**框架源码**各一份，共两份。
+1. 请先加作者**微信**或**QQ**：304327508（注明来意），或者点击 [客服1](https://wpa.qq.com/msgrd?v=3&uin=304327508&site=qq&menu=yes) 或 [客服2](https://wpa.qq.com/msgrd?v=3&uin=61830631&site=qq&menu=yes) 在线咨询。
+2. 通过微信或支付宝进行扫码支付，并在备注里留下**手机/微信/QQ/邮箱**等任意一种联系方式。
+3. 支付成功后需提供**付款截图凭证**和**邮箱号**，其中邮箱号用于接收源码。请勿提供国外邮箱，以免邮件发送失败。
+4. 查看邮箱，获取源码。
+
+> 若你在支付成功并提供付款截图凭证和邮箱号后，作者没有及时回复，请耐心等待。
+> 
+> 若因作者账号被冻结导致无法回复，我们会通过**流程2**里的备注，与你取得联系。
+> 
+> 请相信我们，**我们一定会认真对待每一位专业版用户**！
+
+---
+
+专业版源码包含**演示源码**和**框架源码**各一份，共两份。
 
 > 演示源码，即在**框架源码**基础上提供各种特性展示，含有大量示例代码，与演示站相同
 > 
@@ -41,7 +50,7 @@
 
 > Vue2 专业版将在 2022 年 2 月开始停止技术支持，建议开发者尽快升级到 Vue3 专业版。同时启用付费技术支持，即每个自然月每人 300 元（例如在 3 月 12 日购买付费技术支持，则服务提供到 4 月 12 日为止），主要面向由于客观原因无法升级到 Vue3 专业版的客户。
 
-## 购买方式
+## 支付方式
 
 <table style="display: table; margin: 1rem auto;">
 	<tr>
@@ -72,7 +81,7 @@
 	</tr>
 </table>
 
-## 使用申明
+## 使用说明
 
 - 购买者可将本产品用于任意「符合国家法律法规」的应用平台，禁止用于黄赌毒等危害国家安全与稳定的网站。
 - 本产品购买后可用于开发商业项目，不限制域名和项目数量。
