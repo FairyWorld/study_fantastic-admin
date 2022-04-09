@@ -1,1 +1,0 @@
-const t={key:"v-02329692",path:"/guide/components/fixed-action-bar.html",title:"FixedActionBar \u56FA\u5B9A\u5E95\u90E8\u64CD\u4F5C\u680F",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"Slot",slug:"slot",children:[]}],git:{updatedTime:null,contributors:[]},filePathRelative:"guide/components/fixed-action-bar.md"};export{t as data};
