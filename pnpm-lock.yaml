@@ -2,13 +2,13 @@ lockfileVersion: 5.3
 
 specifiers:
   '@vuepress/plugin-docsearch': ^2.0.0-beta.38
-  vuepress: ^2.0.0-beta.38
-  vuepress-vite: ^2.0.0-beta.38
+  vuepress: ^2.0.0-beta.39
+  vuepress-vite: ^2.0.0-beta.39
 
 devDependencies:
   '@vuepress/plugin-docsearch': 2.0.0-beta.38
-  vuepress: 2.0.0-beta.38
-  vuepress-vite: 2.0.0-beta.38
+  vuepress: 2.0.0-beta.39
+  vuepress-vite: 2.0.0-beta.39
 
 packages:
 
@@ -122,8 +122,8 @@ packages:
       '@algolia/requester-common': 4.13.0
     dev: true
 
-  /@babel/parser/7.17.8:
-    resolution: {integrity: sha512-BoHhDJrJXqcg+ZL16Xv39H9n+AqJ4pcDrQBGZN+wHxIysrLZ3/ECwCBUch/1zUNhnsXULcONU3Ei5Hmkfk6kiQ==}
+  /@babel/parser/7.17.9:
+    resolution: {integrity: sha512-vqUSBLP8dQHFPdPi9bc5GK9vRkYHJ49fsZdtoJ8EQ8ibpwk5rPKfvNIwChB0KVXcIjcepEBBd2VHC5r9Gy8ueg==}
     engines: {node: '>=6.0.0'}
     hasBin: true
     dev: true
@@ -250,7 +250,7 @@ packages:
   /@vue/compiler-core/3.2.31:
     resolution: {integrity: sha512-aKno00qoA4o+V/kR6i/pE+aP+esng5siNAVQ422TkBNM6qA4veXiZbSe8OTXHXquEi/f6Akc+nLfB4JGfe4/WQ==}
     dependencies:
-      '@babel/parser': 7.17.8
+      '@babel/parser': 7.17.9
       '@vue/shared': 3.2.31
       estree-walker: 2.0.2
       source-map: 0.6.1
@@ -266,7 +266,7 @@ packages:
   /@vue/compiler-sfc/3.2.31:
     resolution: {integrity: sha512-748adc9msSPGzXgibHiO6T7RWgfnDcVQD+VVwYgSsyyY8Ans64tALHZANrKtOzvkwznV/F4H7OAod/jIlp/dkQ==}
     dependencies:
-      '@babel/parser': 7.17.8
+      '@babel/parser': 7.17.9
       '@vue/compiler-core': 3.2.31
       '@vue/compiler-dom': 3.2.31
       '@vue/compiler-ssr': 3.2.31
@@ -292,7 +292,7 @@ packages:
   /@vue/reactivity-transform/3.2.31:
     resolution: {integrity: sha512-uS4l4z/W7wXdI+Va5pgVxBJ345wyGFKvpPYtdSgvfJfX/x2Ymm6ophQlXXB6acqGHtXuBqNyyO3zVp9b1r0MOA==}
     dependencies:
-      '@babel/parser': 7.17.8
+      '@babel/parser': 7.17.9
       '@vue/compiler-core': 3.2.31
       '@vue/shared': 3.2.31
       estree-walker: 2.0.2
@@ -334,8 +334,8 @@ packages:
     resolution: {integrity: sha512-ymN2pj6zEjiKJZbrf98UM2pfDd6F2H7ksKw7NDt/ZZ1fh5Ei39X5tABugtT03ZRlWd9imccoK0hE8hpjpU7irQ==}
     dev: true
 
-  /@vuepress/bundler-vite/2.0.0-beta.38:
-    resolution: {integrity: sha512-CoFwtheF7v7iYuDrGwlLGoKoc91YgK+NpXolaq4UjfWhhqOdkfHjCz4oEj3EPl0cwm/8qs3V7JwVzqtIW8ovRg==}
+  /@vuepress/bundler-vite/2.0.0-beta.39:
+    resolution: {integrity: sha512-bJokX1QKpRSWV4iOZdpC7hEGbKZN4HbG8LtZFzQwaxEv6TM/vCU0e1eANapRPwjLC8nWfQqLU4rTBLJl0XiRMQ==}
     dependencies:
       '@vitejs/plugin-vue': 2.3.1_vite@2.9.1+vue@3.2.31
       '@vue/compiler-sfc': 3.2.31
@@ -740,7 +740,7 @@ packages:
       caniuse-lite: 1.0.30001327
       electron-to-chromium: 1.4.106
       escalade: 3.1.1
-      node-releases: 2.0.2
+      node-releases: 2.0.3
       picocolors: 1.0.0
     dev: true
 
@@ -1434,8 +1434,8 @@ packages:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: true
 
-  /node-releases/2.0.2:
-    resolution: {integrity: sha512-XxYDdcQ6eKqp/YjI+tb2C5WM2LgjnZrfYg4vgQt49EK268b6gYCHsBLrK2qvJo4FmCtqmKezb0WZFK4fkrZNsg==}
+  /node-releases/2.0.3:
+    resolution: {integrity: sha512-maHFz6OLqYxz+VQyCAtA3PTX4UP/53pa05fyDNc9CwjvJ0yEh6+xBwKsgCxMNhS8taUKBFYxfuiaD9U/55iFaw==}
     dev: true
 
   /normalize-path/3.0.0:
@@ -1803,11 +1803,11 @@ packages:
       '@vue/shared': 3.2.31
     dev: true
 
-  /vuepress-vite/2.0.0-beta.38:
-    resolution: {integrity: sha512-jta0bZx+5smMkHI2s7bq+PJdvFK2jn08UsNL81IdLPNw34zwpdRthfT2v2lqtZnJOe2/E4ktWAhzwS3Oxu2GCw==}
+  /vuepress-vite/2.0.0-beta.39:
+    resolution: {integrity: sha512-j0xGZC3W8hCvjy1OuzCYkTZV6evHJb/3fa0XRHZ2Dfak/7GbXeTsbShiMb/Sz1R2VItox60U3Gv3gP5+K5rp4g==}
     hasBin: true
     dependencies:
-      '@vuepress/bundler-vite': 2.0.0-beta.38
+      '@vuepress/bundler-vite': 2.0.0-beta.39
       '@vuepress/cli': 2.0.0-beta.38
       '@vuepress/core': 2.0.0-beta.38
       '@vuepress/theme-default': 2.0.0-beta.38
@@ -1823,11 +1823,11 @@ packages:
       - webpack
     dev: true
 
-  /vuepress/2.0.0-beta.38:
-    resolution: {integrity: sha512-NM6ekt5/aBsfPsp1VzuR8dEnia1nicmxFus/HMAe1x222jFGIr6XbX89jYYJuaPFMA4QwMcblY/PD6MCE65SrQ==}
+  /vuepress/2.0.0-beta.39:
+    resolution: {integrity: sha512-rAO0W+wlITVtUObo9vdZiLUZnlvCfIQ4wVst98yxjF9p5yeFYdCXCi1MLljag98Xl3W2u+rzUzfQGMhVR0jQnQ==}
     hasBin: true
     dependencies:
-      vuepress-vite: 2.0.0-beta.38
+      vuepress-vite: 2.0.0-beta.39
     transitivePeerDependencies:
       - '@vue/composition-api'
       - fibers
